@@ -1,0 +1,42 @@
+#container{
+
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    justify-content: center;
+    justify-items: center;
+    margin: 0 auto;
+    padding: 20px;
+
+}
+
+#container * {
+
+    width: 100%;
+    margin: 5px;
+    height: 30px;
+    box-sizing: border-box;
+}
+
+.boton{
+
+    background-color: dodgerblue;
+    stroke: none;
+    color: floralwhite;
+
+}
+
+#containerBtn{
+
+    display: flex;
+    flex-direction: column;
+    margin: 0px ;
+    align-items: flex-end;    
+}
+
+#containerBtn button{
+
+    height: 40px;
+    color: floralwhite;
+
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Lab FireBase</title>
+</head>
+<body>
+    <div id= "containerBtn">
+    <button class ="boton" id="btncandidato">Ver candidatos</button>
+    <button class ="boton" id="btnvotaciones">Ver votaciones</button>
+    </div>
+    <div id ="container">
+    <h2 id="titulo">Lapsus Napoleón Franco</h2>
+    <h3 id="subtitulo">Registre candidato para la encuesta</h3>
+    <input id = "idRegistro"type="text" placeholder="ID">
+    <input id = "nombre" type="text" placeholder="Nombre">
+    <button class ="boton" id="btnRegistrar">Registar</button>
+    <h3 id = "subtitulo2">Vota por el candidato usando su ID</h3>
+    <input id = "idvotar" type="text" placeholder="ID">
+    <button class ="boton" id = "votar">Votar</button>
+    </div>
+</body>
+</html>
+<script src="https://www.gstatic.com/firebasejs/7.24.0/firebase.js"></script>
+<script>
+  const firebaseConfig = {
+    apiKey: "AIzaSyAtC5EHLtprD8f0uDr8Pb5-6DHuLch_ygk",
+  authDomain: "practica-10-ecosistemas.firebaseapp.com",
+  projectId: "practica-10-ecosistemas",
+  storageBucket: "practica-10-ecosistemas.appspot.com",
+  messagingSenderId: "34040184014",
+  appId: "1:34040184014:web:33cee2292500037ad1649f",
+  measurementId: "G-TYWQWMSWLR"
+};
+  firebase.initializeApp(firebaseConfig);
+</script>
+<script src="/js/index.js"></script>
